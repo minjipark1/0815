@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>if-else</title></head>
+<body>
+<h3>고리 2호기 사건 재발 위험 측정</h3>
+<hr>
+<script>
+	var grade;
+	var score = prompt("불시정지 사건의 수를 입력하세요", 100);
+	score = parseInt(score); 
+	if(score >= 2) 
+		grade = "사고 재발 주의";
+	else
+		grade = "사고 재발위험 약함";
+
+	document.write(score + "번의 사고가 났으니 " + grade + "입니다.<br>")
+</script>
+</body>
+</html>
